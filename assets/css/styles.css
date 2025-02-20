@@ -1,0 +1,44 @@
+/* Custom styles */
+.task-pending {
+    background-color: #FEF3C7;
+}
+
+.task-problems {
+    background-color: #FEE2E2;
+}
+
+.task-completed {
+    background-color: #D1FAE5;
+}
+
+/* Responsive tables */
+@media (max-width: 768px) {
+    .responsive-table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+/* Custom form styles */
+.form-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50;
+}
+
+.btn-primary {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50;
+}
+
+.btn-danger {
+    @apply bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50;
+}
+.min {
+  min-width: 200px;
+  display: inline-block;
+  text-align: center;
+  align-items: center
+  ;
+}
+.table-cell-border {
+    @apply border-r border-gray-200 last:border-r-0;
+}
